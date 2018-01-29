@@ -16,7 +16,7 @@ module NetSuite
       read_only_fields :handling_cost
 
       record_refs :custom_form, :entity, :created_from, :ship_carrier, :ship_method,
-        :ship_address_list, :klass, :ship_country, :shipping_group
+                  :ship_address_list, :klass, :ship_country, :shipping_group, :posting_period
 
       # NOTE API version < 2015_1 only
       field :transaction_ship_address, ShipAddress
